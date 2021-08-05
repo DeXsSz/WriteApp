@@ -2,7 +2,17 @@ import React, {useEffect, useReducer} from 'react'
 import TodoList from './components/TodoList'
 import {todoReducer} from './components/todoReducer'
 const init = () => {
-    return JSON.parse(localStorage.getItem('todos'))
+    const initial = [{
+            id: 123,
+            task: 'WriteApp',
+            done: false
+    }]
+    const local = JSON.parse(localStorage.getItem('todos'))
+    if(local){
+        return local
+    }else{
+        return initial
+    }
 };
 const TodoApp = () => {
     const [todos, dispatch] = useReducer(todoReducer, [], init);

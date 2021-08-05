@@ -1,11 +1,11 @@
-const initalState = [
-    {
-        id: new Date().getTime(),
-        task: 'Aprender React',
-        done: false,
-    },
-];
-export const todoReducer = (state = initalState, action) => {
+// const initalState = [
+//     {
+//         id: new Date().getTime(),
+//         task: 'Aprender React',
+//         done: false,
+//     },
+// ];
+export const todoReducer = (state = [], action) => {
     switch (action.type) {
         case 'add':
             return [...state, action.payload];
