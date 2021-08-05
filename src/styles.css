@@ -1,0 +1,41 @@
+:root {
+    --black-coral: #555b69;
+    --gains-boro: #e1e2e7;
+    --lavender-gray: #b8bac6;
+    --eerie-black: #1e1e1f;
+    --liberty: #4a63a9;
+    --dartmouth-green: #09702c;
+    --purple-X11: #9b2dde;
+    --mahogany: #c24600;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+    background-color: var(--black-coral);
+    color: var(--white);
+}
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1024px;
+    width: 90%;
+    margin: 0 auto;
+}
+.text-center {
+    text-align: center;
+}

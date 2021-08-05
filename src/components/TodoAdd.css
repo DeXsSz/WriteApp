@@ -1,0 +1,18 @@
+.write-task {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--gains-boro);
+    padding: 8px 12px;
+    margin: 12px 20px;
+    border-radius: 8px;
+    border: 3px solid var(--eerie-black);
+}
+.write-task__input {
+    width: 100%;
+    background-color: var(--gains-boro);
+    border: transparent;
+    outline: none;
+    color: var(--black-coral);
+}

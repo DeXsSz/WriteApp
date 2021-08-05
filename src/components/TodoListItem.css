@@ -1,0 +1,31 @@
+.list-item {
+    background-color: var(--gains-boro);
+    padding: 8px 12px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    border-radius: 8px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 100%;
+}
+.list-item__text {
+    width: 100%;
+    margin-left: 12px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+.complete {
+    text-decoration: line-through;
+}
+
+.btn {
+    background-color: var(--purple-X11);
+    color: var(--eerie-black);
+    font-weight: 700;
+    padding: 8px 4px;
+    border-radius: 8px;
+    border: 2px solid var(--eerie-black);
+    cursor: pointer;
+    outline: none;
+}
