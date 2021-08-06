@@ -27,6 +27,7 @@ const TodoAdd = ({handleAdd}) => {
                     name="task"
                     onChange={handleInputChange}
                     value={task}
+                    autoComplete='off'
                 />
             </form>
         </div>
